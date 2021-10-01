@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+body {
+    height: 100vh;
+    background-color: black;
+    font-size: 18px;
+}
+/* HEADER */
+nav{
+    text-align: right;
+}
+
+/* MAIN */
+
+
+/* UTILITY */
+.flex-container{
+    display: flex;
+    flex-direction: column;
+}
+.bg-1{
+    color:white;
+    background-color:rgba(255,255,255,0.2);
+    border:0;
+    border-radius: 5px;
+}
+.p-5{
+    padding: 5px;
+}
