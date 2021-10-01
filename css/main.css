@@ -8,6 +8,8 @@ body {
     height: 100vh;
     background-color: black;
     font-size: 18px;
+    flex-direction: column;
+    color: white;
 }
 /* HEADER */
 nav{
@@ -15,15 +17,35 @@ nav{
 }
 
 /* MAIN */
-
+main{
+    margin:20px 60px;
+    flex-grow: 1;
+}
+main ul{
+    flex-wrap: wrap;
+    list-style: none;
+}
+main li{
+    background-image: url(https://picsum.photos/300/200);
+    width: 300px;
+    height: 200px;
+    background-size: cover;
+    margin: 5px;
+    position: relative;
+}
+.info{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0,0,0,0.6);
+    padding: 3px;
+}
 
 /* UTILITY */
 .flex-container{
     display: flex;
-    flex-direction: column;
 }
 .bg-1{
-    color:white;
     background-color:rgba(255,255,255,0.2);
     border:0;
     border-radius: 5px;
