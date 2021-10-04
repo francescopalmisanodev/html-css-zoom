@@ -24,11 +24,12 @@ main{
 main ul{
     flex-wrap: wrap;
     list-style: none;
+    justify-content: center;
 }
 main li{
-    background-image: url(https://picsum.photos/300/200);
-    width: 300px;
-    height: 200px;
+    background-image: url(https://picsum.photos/320/150);
+    width: 320px;
+    height: 150px;
     background-size: cover;
     margin: 5px;
     position: relative;
@@ -39,6 +40,11 @@ main li{
     left: 0;
     background-color: rgba(0,0,0,0.6);
     padding: 3px;
+}
+
+/* footer */
+footer.flex-container{
+    justify-content:space-between;
 }
 
 /* UTILITY */
